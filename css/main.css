@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+
+body{
+    background: #e1ecec;
+    margin:0em;
+    font-family: 'Prompt';
+}
+
+.navbar{
+    background: hsl(0, 0%, 100%);
+    padding:2em;
+    }
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(125, 51, 185);
+    font-size: 1.2em;
+}
+nav{
+    display:none;
+}
+
+.container1{
+    text-align: left;
+    place-content: space-between;
+    margin: 5em 2em 2em 2em;
+    background: #f2f2f2;
+    border-radius: 5%;
+    display:flex;
+
+}
+.dp{
+    
+    height:200px;
+    border-radius: 50%;
+    margin-top: -5em;
+}
+.mobile-menu{
+    
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+.contact-section{
+    display:flex;
+}
+
+.archives{
+    background: silver;
+}
+ul.abc{
+    display: flex;
+}
+.picntxt{
+    border-radius: 10%;
+    display:flex;
+    background: #dbb6b6;
+    text-align:left;
+    width: 400px;
+    border: 2em 2em 2em 2em;
+    
+}
+.animage{
+    width:100%;
+    border-radius: 0%;
+    margin-top:5em;
+}
